@@ -2,8 +2,10 @@ import { useState } from 'react';
 import data from '../MovieData.json';
 import React from 'react';
 
+//Loads up the JSON data
 const MDS = data.MovieData;
 
+//this is what will be performed logically, then rendered on the screen
 export default function Movies() {
   const [listOfMovies, setListOfMovies] = useState(MDS);
 

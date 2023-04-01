@@ -4,6 +4,7 @@ import Home from './containers/Home';
 import Movies from './containers/Movies';
 import Podcasts from './containers/Podcasts';
 
+//This is where the routes are found!
 export default function Links() {
   return (
     <Routes>
